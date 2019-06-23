@@ -8,7 +8,12 @@ import Tweet from '@/components/tweet';
 suite('TweetList', () => {
 
     it('should render Tweet item', () => {
-        const wrapper = mount(TweetList);
+        const wrapper = mount(TweetList, {
+            stubs: {
+                "b-card": true,
+                "b-card-text": true,
+            }
+        });
         assert.ok(wrapper.contains(Tweet));
         
     });
