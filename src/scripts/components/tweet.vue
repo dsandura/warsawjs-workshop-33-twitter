@@ -1,10 +1,10 @@
 <template>
   <b-card :img-src="tweet.author.avatar_url"
   :title="tweet.author.name" 
-  :sub-title="tweet.created_time" 
-  style="max-width: 20rem;"
+  :sub-title="created_time" 
+  
    img-alt="Image"
-   img-top
+   img-left
   class="m-3">
     <b-card-text>
         {{tweet.body}}
@@ -23,7 +23,21 @@ export default {
 
         }
         
-    }
+    },
+
+    computed: {
+       created_time() {
+           const d = new Date(this.tweet.created_time);
+           return d.toLocaleString('pl-PL');
+       }
+     },
+
+     filters: {
+         myDate(value) {
+             const d = new Date(this.tweet.created_time);
+             return d.toLocaleString('pl-PL');
+         }
+     }
    
  
 }
