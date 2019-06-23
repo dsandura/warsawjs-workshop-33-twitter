@@ -1,7 +1,7 @@
 <template>
   <b-card class="m-3">
     <b-card-text>
-        <div class="tweet"> First Tweet ever!</div>
+        {{tweet.body}}
     </b-card-text>
  
  </b-card>
@@ -9,8 +9,17 @@
 
 <script>
 export default {
-    name: "Tweet"
+    name: "Tweet",
+    props:{
+        tweet:{
+            body: String,
+            id: Number,
 
+        }
+        
+    }
+   
+ 
 }
 </script>
 
