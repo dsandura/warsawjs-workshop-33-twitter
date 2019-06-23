@@ -21,20 +21,29 @@ export default {
         }
     },
 
-  async mounted() {
-        console.log('app.vue is ready');
+    methods: {
 
-        const url = 'http://localhost:3000/tweets';
+      async fetchTweets() {
+
+    const url = 'http://localhost:3000/tweets';
 
     try {
         const response = await fetch(url);
-        const tweets = await response.json();
-        this.tweets = tweets;
+        return await response.json();
+        
 
     } catch (err) {
         console.log(err);
 
     }
+
+        }
+
+    },
+
+  async mounted() {
+        console.log('app.vue is ready');
+        this.tweets = await this.fetchTweets();
 
         //  axios
         //     .get('https://localhost:3000/tweets')
