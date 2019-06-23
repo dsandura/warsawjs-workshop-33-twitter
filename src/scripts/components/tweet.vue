@@ -1,7 +1,7 @@
 <template>
   <b-card :img-src="tweet.author.avatar_url"
   :title="tweet.author.name" 
-  :sub-title="created_time" 
+  :sub-title="tweet.created_time | myDate" 
   
    img-alt="Image"
    img-left
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import {myDate} from "@/helpers/my-date"
 export default {
     name: "Tweet",
     props:{
@@ -34,8 +35,8 @@ export default {
 
      filters: {
          myDate(value) {
-             const d = new Date(this.tweet.created_time);
-             return d.toLocaleString('pl-PL');
+             return myDate(value);
+             
          }
      }
    
