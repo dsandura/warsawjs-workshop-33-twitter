@@ -15,12 +15,33 @@ export default {
     data() {
         return{
             tweets: [
-                {id: 1, body:"awesome WarsawJS"},
-                {id:2, body: "Learning Vue.js"},
-                {id:3, body: "Happy Coding"}
+                
 
             ]
         }
+    },
+
+  async mounted() {
+        console.log('app.vue is ready');
+
+        const url = 'http://localhost:3000/tweets';
+
+    try {
+        const response = await fetch(url);
+        const tweets = await response.json();
+        this.tweets = tweets;
+
+    } catch (err) {
+        console.log(err);
+
+    }
+
+        //  axios
+        //     .get('https://localhost:3000/tweets')
+        //     .then(response => (this.tweets = response))
+        //1. make http request
+        // 2. parse to JSON
+        // 3. assign to this.tweets
     }
 
 }

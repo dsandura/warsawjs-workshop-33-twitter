@@ -1,0 +1,54 @@
+{
+    "tweets": [
+      {
+        "id": "ea6ae235-6ace-508f-8165-15da8ba80b67",
+        "created_time": "Tue Dec 18 2018 02:38:08 GMT+0100 (Central European Standard Time)",
+        "author": {
+          "id": "0e0239f5-616a-5af5-80d2-394fc8b61613",
+          "name": "Davonte Ratke",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/j04ntoh/128.jpg"
+        },
+        "body": "Hinumli tano rum zo dunum tawu natbas lujab lijib leriz biduc tosvekoj genik fafwafpeh."
+      },
+      {
+        "id": "776d0a28-bdc5-5f0c-84ab-347a237e1ae9",
+        "created_time": "Fri May 03 2019 20:59:45 GMT+0200 (Central European Summer Time)",
+        "author": {
+          "id": "a023bf17-b8e3-5529-9d05-2aff2538f4b0",
+          "name": "Ansel Schimmel",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/ovall/128.jpg"
+        },
+        "body": "Awijak howvatdu zu mig orueduana ekituc rolsar bos tatkijcol ris fizag rafireb niw ubejume urtaf demos dozumi ununep."
+      },
+      {
+        "id": "35b49ec2-a53c-57dc-91e2-9e0c3a3e8b6d",
+        "created_time": "Wed Dec 26 2018 14:12:25 GMT+0100 (Central European Standard Time)",
+        "author": {
+          "id": "16bcc102-22bf-5abb-95ff-4278a9ac8df3",
+          "name": "Geraldine Hessel",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/switmer777/128.jpg"
+        },
+        "body": "Kel aji bunu owmizcop hosga kiizo orsagar digo johobuan buhvugliv sirhe sepa leok gag bef."
+      },
+      {
+        "id": "12b1f46c-f4c5-56de-b04a-b9a14f2cc5a4",
+        "created_time": "Mon Dec 17 2018 18:40:44 GMT+0100 (Central European Standard Time)",
+        "author": {
+          "id": "11f9c9dc-eaf5-5dd1-8709-09f22da665ce",
+          "name": "Santa O'Keefe",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/cynthiasavard/128.jpg"
+        },
+        "body": "Jucbawum enaihmoh zesarwos up le nawwume efe ifnipku rorgumur fo busagdi biktelge uzwur na ikkosew tige da."
+      },
+      {
+        "id": "0686ff43-c863-5e34-bf6a-8424a7bb4773",
+        "created_time": "Sun Jul 01 2018 19:51:11 GMT+0200 (Central European Summer Time)",
+        "author": {
+          "id": "20c572aa-a0d2-5121-b9fb-828e371b6e3b",
+          "name": "Aimee Flatley",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/anthonysukow/128.jpg"
+        },
+        "body": "Citohhop piwekaet vabvob tem ju haszo lidral dipovuk jadamow uttur kutduges hotto."
+      }
+    ]
+  }
